@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 10000px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="get" enctype="multipart/form-data">
+        
+        
+        <input type="text" name="age" placeholder="your age" autofocus> your age<br>
+        <input type="text" name="city" placeholder="your city" disabled> <br>
+        <input type="password" name="password" placeholder="your password"> <br>
+        <hr>
+        <input type="checkbox" name="animal[]" value="cat" checked> cat
+        <input type="checkbox" name="animal[]" value="dog"> dog <br>
+        <hr>
+        <input type="radio" name="gender" value="man"> man
+        <input type="radio" name="gender" value="woman" checked> woman <br>
+        <hr>
+        <input type="radio" name="gender1" value="man1"> man1
+        <input type="radio" name="gender1" value="woman1" checked> woman1 <br>
+        <hr>
+        <input type="file" name="file">
+        <input type="submit">
+    </form>
+
+    <hr>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="get" target="_blank">
+        best cars
+        <input type="radio" name="car" value="bmw"> bmw
+        <input type="radio" name="car" value="mers"> mers
+        <input type="radio" name="car" value="audi"> audi
+        <input type="hidden" name="form_type" value="best">
+        <input type="submit">
+    </form>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get" target="_blank">
+        best speed cars
+        <input type="radio" name="car" value="bmw"> bmw
+        <input type="radio" name="car" value="mers"> mers
+        <input type="radio" name="car" value="audi"> audi
+        <input type="hidden" name="form_type" value="speed">
+        <textarea name="mytext">Я считаю, что...</textarea><br>
+        <select name="animalkind[]" multiple size="4">
+            <option value="привет">кошка</option>
+            <option value="5" selected>собака</option>
+            <option value="8">попугай</option>
+            <option value="9" selected>тушкан</option>
+        </select><br>
+        <button type="submit">
+            Hello
+        </button>
+    </form>
+    <hr>
+
+    <form action="">
+        <label for="aaa">Click me</label> <br>
+        <label>Your name1 <br>
+            <div></div>
+            <ul>
+                <li></li>
+            </ul>
+            <input type="text" name="firstname" value="Yauheni" placeholder="Your name"> <br>
+        </label>
+        
+        <input type="text" id="aaa" name="firstname" value="Yauheni" placeholder="Your name">Your name2 <br>
+        <input type="text" id="aaa" name="firstname" value="Yauheni" placeholder="Your name">Your name2 <br>
+        <button type="submit">
+            Hello
+        </button>
+    </form>
+</body>
+
+</html>
