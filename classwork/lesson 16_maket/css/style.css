@@ -1,0 +1,35 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.container_header{
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  height: 62px;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  display:inline-flex; 
+  margin-left: 50px;
+}
