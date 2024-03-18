@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     }
-.footer{
+.header{
     height: 100px;
     background-color: rgb(213, 243, 243);
     display: flex;
@@ -25,6 +25,16 @@ background-color: rgb(163, 83, 232)    ;
 }
 .item{
     height: 300px;
-    width: 400px;
+    width: 490px;
+    background-color: yellow;
+}
+.centr{
+    height: 300px;
+    width: 490px;
+    background-color: rgb(5, 240, 237);
+}
+.right{
+    height: 300px;
+    width: 490px;
     background-color: yellow;
 }
