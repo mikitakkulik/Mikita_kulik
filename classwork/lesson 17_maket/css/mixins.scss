@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  height: 100px;
+  background-color: rgb(97, 232, 232);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid black 1px;
+}
+.center{
+display: flex;
+height: 300px;
+background-color: rgb(163, 83, 232);
+}
+.item{
+  height: 300px;
+  width: 25%;
+  background-color: yellow;
+}
+.centr{
+  height: 300px;
+  width: 50%;
+  background-color: purple;
+}
+.right{
+  height: 300px;
+  width: 25%;
+  background-color: yellow;
+}
