@@ -52,28 +52,11 @@ nav a.chosen {
 	border-bottom-color: rgba(0,0,0,0.8);
 	color: black;
 }
-/* Initial transition workaround: http://css-tricks.com/transitions-only-after-page-load/ */
 .preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
-}
-.slider {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-}
-.slider ul {
-	width: 9000em;
-    position: relative;
-    left: -1148px;
-}
-.slider li {
-	float: left;
-}
-.slider img {
-	border-radius: 0;
 }
 .advert {
 	text-align: center;
@@ -110,7 +93,7 @@ nav a.chosen {
 h2 {
 	font-size: 64px;
 	letter-spacing: -4px;
-	color: rgb(174, 161, 122);
+	color: rgb(0, 0, 0);
 	padding: 30px 0 10px;
 	font-weight: bold;
 }
@@ -124,7 +107,7 @@ h2.dashed:after {
 }
 .description {
 	font-size: 16px;
-	color: rgb(166,175,176);
+	color: rgb(0, 0, 0);
 	line-height: 26px;
 	margin: 16px 20px;
 }
