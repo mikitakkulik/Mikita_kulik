@@ -10,7 +10,7 @@ body {
 }
 
 header {
-	background: rgb(116, 111, 92);
+	background: rgb(174, 161, 122);
 }
 .content {
 	width: 100%;
@@ -110,7 +110,7 @@ nav a.chosen {
 h2 {
 	font-size: 64px;
 	letter-spacing: -4px;
-	color: rgb(44,62,80);
+	color: rgb(174, 161, 122);
 	padding: 30px 0 10px;
 	font-weight: bold;
 }
@@ -153,7 +153,7 @@ button {
 button a {
 	font-size: 14px;
 	font-weight: bold;
-    color: rgb(44,62,80);
+    color: rgb(174, 161, 122);
     text-decoration: none;
 }
 button:hover,
@@ -165,7 +165,7 @@ button:active {
 }
 .about {
 	text-align: center;
-	background: rgb(44,62,80); 
+	background: rgb(174, 161, 122); 
 }
 .line {
     background: url('img/bubka.png') repeat-x center top; 
@@ -195,10 +195,10 @@ p.short{
 }
 .event h3, .type h3, .advert h3 {
 	padding: 30px 0 20px;
-	color: rgb(44,62,80) ;
+	color: rgb(174, 161, 122) ;
 }
 footer {
-	background: rgb(44,62,80);
+	background: rgb(174, 161, 122);
 }
 .shortinfo {
 	float: left;
@@ -409,14 +409,14 @@ a.maina {
 }
 .classes caption {
 	font-size: 24px;
-	color: rgb(44, 62, 80);
+	color: rgb(174, 161, 122);
 	text-align: left;
 	margin: 28px 0;
 }
 .classes td {
 	width: 108px;
 	padding: 12px 10px;
-	color: rgb(44, 62, 80);
+	color: rgb(174, 161, 122);
 }
 .classes th {
    width: 108px;
@@ -434,7 +434,7 @@ a.maina {
 }
 .classes td a {
 	text-decoration: none;
-	color: rgb(44, 62, 80);
+	color: rgb(174, 161, 122);
 	font-weight: bold;
 	margin-top: 10px;
 	display: block;
@@ -444,7 +444,7 @@ a.maina {
 	color: rgb(241, 196, 15);
 }
 .classes .time {
-	color: rgb(44, 62, 80);
+	color: rgb(174, 161, 122);
 	font-weight: bold;
 	width: 142px;
 }
