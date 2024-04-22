@@ -42,9 +42,7 @@ nav a {
 	padding: 16px 26px 36px;
 	display: inline-block;
 	border-bottom: 4px solid transparent;
-	-webkit-transition: color .3s, border .3s;
-	-moz-transition: color .3s, border .3s;
-	transition: color .3s, border .3s;
+
 }
 nav a:active,
 nav a:hover,
@@ -88,7 +86,6 @@ nav a.chosen {
 }
 h2 {
 	font-size: 64px;
-	letter-spacing: -4px;
 	color: rgb(0, 0, 0) !important;
 	padding: 30px 0 10px;
 	font-weight: bold;
@@ -478,7 +475,7 @@ ul.photos {
 	top: 50%;
 	margin-top: -240px;
 }
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 1200px) {
 	.classes .minorsection {
 		float: none;
 		margin: 60px auto;
@@ -536,7 +533,7 @@ ul.photos {
 		margin-bottom: 20px;
 	}
 }	
-@media only screen and (max-width: 72em) {
+@media only screen and (max-width: 1152px) {
 	.shortinfo {
 		clear: both;
 		width: 100%;
@@ -580,7 +577,7 @@ ul.photos {
 		width: 50%;
    	}
 }
-@media only screen and (max-width: 70em) {
+@media only screen and (max-width: 1120px) {
 	.info .type {
 		clear: both;
 		width: 100%;
@@ -601,7 +598,7 @@ ul.photos {
 	}
 
 }
-@media only screen and (max-width: 66em) {
+@media only screen and (max-width: 1056px) {
 	.classtype .type {
 		clear: both;
 		width: 100%;
@@ -637,7 +634,7 @@ ul.photos {
 	
 
 }
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 752px) {
 	header .content {
 		text-align: center;
 	}
@@ -662,7 +659,7 @@ ul.photos {
    	}
     
 }
-@media only screen and (max-width: 43em) {
+@media only screen and (max-width: 688px) {
 	.aboutus img.positionleft {
 		float: none;
 		display: block;
@@ -679,7 +676,7 @@ ul.photos {
 	}
 
 }
-@media only screen and (max-width: 39em) {
+@media only screen and (max-width: 624px) {
 	table, th, td, tr, tbody {
 		display: block;
 		-webkit-box-sizing: border-box;
@@ -728,7 +725,7 @@ ul.photos {
 	}
 
 }
-@media only screen and (max-width: 36em) {
+@media only screen and (max-width: 576px) {
 	.type img {
 		width: 100%;
 		max-width: 33.75em;
@@ -738,7 +735,7 @@ ul.photos {
 	}
 
 }	
-@media only screen and (max-width: 18em) {
+@media only screen and (max-width: 288px) {
 	footer input {
 		width: 100%;
 		-webkit-box-sizing: border-box;
