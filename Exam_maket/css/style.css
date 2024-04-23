@@ -71,9 +71,6 @@ nav a.chosen {
 	display: inline-block;
 	padding: 16px 20px;
 	border-radius: 8px;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
 }
 .advert a:hover {
 	background: rgb(241,196,15);
@@ -133,12 +130,6 @@ button a {
 	font-weight: bold;
     color: rgb(174, 161, 122);
     text-decoration: none;
-}
-button:hover,
-button:active {
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
 }
 .about {
 	text-align: center;
