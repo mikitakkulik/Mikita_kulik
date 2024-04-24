@@ -167,7 +167,6 @@ footer {
 	background: rgb(174, 161, 122);
 }
 .shortinfo {
-	float: left;
 	width: 262px;
 	margin: 48px 10px;
 }
@@ -222,72 +221,6 @@ input[type="text"].borderless {
 .baseinfo {
 	text-align: center;	
 }
-.contacts .formcontainer {
-	width: 748px;
-	float: left;
-}
-.contacts input, textarea {
-    border: solid 1px rgb(202,202,202);
-    font: normal 14px Tahoma, sans-serif;
-    padding: 3px 0 3px 16px;
- }
- input:focus, textarea:focus {
-    border: solid 2px rgb(241,196,15);
-    outline: none;
-    padding: 2px 0 2px 16px;
- }
-.contacts textarea {
-	color: rgb(172, 172, 172);
-	border-radius: 4px;
-	width: 100%;
-	height: 100px;
-	margin-bottom: 20px;
-}
-.contacts .name {
-	width: 420px;
-	float: left;
-}
-.contacts .email{
-	margin-left: 450px;
-}
-.contacts #aligned-name, #aligned-email, #aligned-subject {
-	width: 100%;
-	margin-top: 0px;
-}
-.bluelink {
-	color: rgb(44, 62, 80);
-	text-decoration: none;
-}
-.bluelink:visited, .bluelink:active {
-    color: rgb(241, 196, 15);
-}
-.contacts .lined {
-	border-bottom: solid 1px rgb(222, 222, 222);
-	padding-bottom: 16px;
-}
-.contacts .adresscontainer {
-	margin-left: 820px;
-}
-.contacts .adresscontainer span{
-	color: rgb(241,196,15);
-	font-weight: bold;
-}
-.contacts .adresscontainer li {
-	margin-top: 10px;
-	font-size: 16px;
-	color: rgb(138,148,148)
-}
-.contacts .map {
-	height: 320px;
-	width: 100%;
-	overflow: hidden;
-	text-align: center;
-}
-.contacts .error {
-	display: inline-block;
-	margin-left: 20px;
-	color: red;
-}
 /*aboutus*/
 
 .sectioncontainer {
@@ -323,24 +256,6 @@ h4 {
     color: rgba(138, 148, 148, 0.5);
     text-transform: uppercase;	
 }
-.aboutus p.link {
-   padding: 16px 0;
-   line-height: 5mm;
-}
-li.mainli {
-	padding-top: 20px;
-	border-bottom: solid 1px rgb(222, 222, 222);
-}
-a.maina {
-	font-size: 16px;
-	color: rgb(138, 148, 148);
-	text-decoration: none;
-}
-.aboutus a.maina:active,
-.aboutus a.maina:hover,
-.aboutus a.maina.chosen {
-	color: rgb(241, 196, 15);
-}
 
 /*vidy*/
 .classes .minorsection {
@@ -349,52 +264,6 @@ a.maina {
 }
 .classes .mainsection {
 	margin: 10px 20px 60px 380px;
-}
-.classes table {
-	font-size: 12px;
-	text-align: center;
-	width: 772px;
-}
-.classes caption {
-	font-size: 24px;
-	color: rgb(174, 161, 122);
-	text-align: left;
-	margin: 28px 0;
-}
-.classes td {
-	width: 108px;
-	padding: 12px 10px;
-	color: rgb(174, 161, 122);
-}
-.classes th {
-   width: 108px;
-   background: rgb(241, 196, 15);
-   color: white;
-   font-size: 12px;
-   padding: 16px 10px;
-   text-transform: uppercase;
-  }
-.classes tr.brightrow {
-	background: rgb(234, 234, 234);
-}
-.classes tr.darkrow {
-    background: rgb(226, 226, 226);
-}
-.classes td a {
-	text-decoration: none;
-	color: rgb(174, 161, 122);
-	font-weight: bold;
-	margin-top: 10px;
-	display: block;
-}
-.classes td a:hover,
-.classes td a:active {
-	color: rgb(241, 196, 15);
-}
-.classes .time {
-	color: rgb(174, 161, 122);
-	font-weight: bold;
-	width: 142px;
 }
 .vidyclass {
 	overflow: hidden;
@@ -524,107 +393,6 @@ ul.photos {
 		margin-bottom: 20px;
 	}
 }	
-@media only screen and (max-width: 1152px) {
-	.shortinfo {
-		clear: both;
-		width: 100%;
-		margin: 20px 0 0 0;
-		padding: 0 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.shortinfo button {
-		margin-bottom: 20px;
-	}
-	.aboutus .minorsection {
-		clear: both;
-		width: 100%;
-		margin: 0 auto;
-		padding: 0 10px 40px 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.aboutus ul li:last-child {
-		border: none;
-	}
-	.aboutus .mainsection {
-		float: none;
-		width: 100%;
-		float: none;
-		padding: 0 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.gallery ul.photos {
-		padding: 0px 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-
-	.contacts .short {
-		padding: 10px 0;
-	}
-	.gallery li {
-		width: 50%;
-   	}
-}
-@media only screen and (max-width: 1120px) {
-	.info .type {
-		clear: both;
-		width: 100%;
-	}
-	.info .white {
-		padding: 0 20px 20px 0;
-	}
-	.content .short {
-		padding: 10px 10px;
-   	}
-	.advert p {
-		padding: 0 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.contacts .short {
-		padding: 10px 0;
-	}
-
-}
-@media only screen and (max-width: 1056px) {
-	.classtype .type {
-		clear: both;
-		width: 100%;
-	}
-	.classtype h3 {
-		padding: 0 0 20px 0; 
-	}
-	.event img {
-		width: 100%;
-		max-width: 58.75em;
-		padding: 0 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.vidyclass img {
-		width: 100%;
-		max-width: 48.125em;
-		padding: 0 10px;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.formcontainer .email,
-	.formcontainer .name,
-	.formcontainer .sublect {
-		width: 100%;
-		margin: 0 auto;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	.formcontainer .email {
-		clear: both;
-	}
-	
-
-}
 @media only screen and (max-width: 752px) {
 	header .content {
 		text-align: center;
@@ -648,73 +416,6 @@ ul.photos {
    		width: 100%;
 		margin: 4px auto;
    	}
-    
-}
-@media only screen and (max-width: 688px) {
-	.aboutus img.positionleft {
-		float: none;
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-		max-width: 18.75em;
-	}
-	.mainsection h3,h4 {
-		text-align: center;
-		padding: 10px 10px 0px 10px;
-		width: 100%;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-
-}
-@media only screen and (max-width: 624px) {
-	table, th, td, tr, tbody {
-		display: block;
-		-webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	table th {
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	.classes table td {
-		border: none;
-		border-bottom: 1px solid #eee;
-		position: relative;
-		width: 100%;
-	}
-	.classes .time {
-		width: 100%;
-		background: rgb(241,196,15);
-	}
-	td:before {
-		position: absolute;
-		top: 15%;
-		left: 10px;
-        width: 20px;
-		padding-right: 10px;
-		white-space: nowrap;
-	}
-	td:nth-of-type(2):before {
-		content: "РїРЅ";
-	}
-	td:nth-of-type(3):before {
-		content: "РІС‚";
-	}
-	td:nth-of-type(4):before {
-		content: "СЃСЂ";
-	}
-	td:nth-of-type(5):before {
-		content: "С‡С‚";
-	}
-	td:nth-of-type(6):before {
-		content: "РїС‚";
-	}
-	td:nth-of-type(7):before {
-		content: "СЃР±";
-	}
-
 }
 @media only screen and (max-width: 576px) {
 	.type img {
